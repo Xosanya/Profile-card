@@ -1,0 +1,103 @@
+.profile-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  background-color: #4070f4;
+  border-radius: 15px 15px 0 0;
+  margin-top: 15px;
+}
+
+.card{
+  border-radius: 15px;
+  width: 300px;
+  height:320px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+
+}
+.follow,.message{
+  margin-top: 40px;
+  color: white;
+  background-color:  #4070f4;
+  font-family:Roboto,Arial;
+  border: none;
+  border-radius: 17px;
+  padding: 6px;
+  width: 100px;
+  margin-left: 8px;
+}
+.follow{
+  margin-left: 40px;
+}
+.message{
+  margin-right: 15px;
+  margin-left: 10px;
+  
+}
+
+.name{
+  margin-top: 17px;
+  font-family:Roboto,Arial;
+  font-weight: 500;
+  font-size: 17px;
+  margin-bottom: 0;
+  text-align: center;
+}
+p{
+  margin-top: 3px;
+  font-family:Roboto,Arial;
+  font-size: 13px;
+  text-align: center;
+}
+
+.profile-picture{
+  width: 80px;
+  border-radius: 50%;
+  border:white;
+  border-width: 3px;
+  border-style: solid;
+  margin-top: 42px;
+  
+}
+.facebook,.twitter,.youtube,.instagram{
+  margin-right: 10px;
+}
+
+.icons {
+margin-top: 20px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.social-media{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.data{
+  width: 10px;
+  height: 10px;
+}
+.card  .social-media{
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.social-media .data{
+  display: flex;
+  align-items: center;
+  color:#333;
+  padding: 0 20px;
+  border-right: 2px solid #e7e7e7;
+
+}
+.data i{ 
+  font-size: 18px;
+  margin-right: 6px;
+}
+.data:last-child{
+  border-right: none;
+
+}
